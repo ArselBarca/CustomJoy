@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e6e3e3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sch {
+
+}
+
+nav {
+    margin: 15px;
+    display: flex;
+    right: 0;
+}
+
+.slova {
+    padding: 10px;
+    font-weight: 700;
+    color: #D92430;
+}
+
+.aleph {
+    display: flex;
+}
+
+.pravyj {
+    height: 100vh;
+    width: 50vw;
+    background: rgb(29, 29, 27);
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.levyj {
+    background: url(./img/header-left-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 700;
+}
+
+.paragraph {
+    text-align: right;
+    font-size: 30px;
+    width: 52%;
+    color: grey;
+}
+
+.baton {
+    background:  #D92430;
+    padding: 18px 200px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.conteiner {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bet {
+
+}
+
+.joysticks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cart {
+    color: #fff;
+    height: 400px;
+    width: 30%;
+    background-size: contain;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.cart p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.a p {
+    background:linear-gradient(#302430, #875a6f) ;
+    width: 100%;
+}
+.b p {
+    width: 100%;
+    background:linear-gradient(#510E09, #C63B40) ;
+}
+.c p {
+    width: 100%;
+    background:linear-gradient(#FC6986, #FEC809) ;
+}
+.d p {
+    width: 100%;
+    background:linear-gradient(#E85C97, #14B0DA) ;
+}
+.e p {
+    width: 100%;
+    background:linear-gradient(#8E0D06, #0F0D06) ;
+}
+.f p {
+    width: 100%;
+    background:linear-gradient(#6CC7CA, #E03A3A) ;
+}
+
+.a {
+    background-image: url(./img/gamepad1-card-img.png);
+}
+
+.b {
+    background-image: url(./img/gamepad2-card-img.png);
+}
+
+.c {
+    background-image: url(./img/gamepad3-card-img.png);
+}
+
+.d {
+    background-image: url(./img/gamepad4-card-img.png);
+}
+
+.e {
+    background-image: url(./img/gamepad5-card-img.png);
+}
+
+.f {
+    background-image: url(./img/gamepad6-card-img.png);
+}
+
+h2 {
+    color: #D92430;
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.gimmel {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.conteinertwo {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sticks {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.ber {
+    background:linear-gradient(#74F3A7, #0D7BFF) ;
+    margin-bottom: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.ike {
+    background: linear-gradient(#5bb0ff, #3e2993);
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.ouch {
+    background: linear-gradient(#ffdc83, #e7653d);
+    margin-bottom: 50px;
+    width: 55%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.labels {
+    flex-grow: 3;
+    flex-shrink:1;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer {
+    display: flex;
+    
+}
+
+.bluegeo {
+    background-image: url(./img/form-left-img.png);
+    height: 100vh;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink:5;
+}
+
+.redgeo {
+    background-image: url(./img/form-right-img.png); 
+    height: 100vh;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink:5;
+}
+
+.vtoroj {
+    text-align: center;
+    color: #E03A3A;
+    margin-top: 50px;
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+.poslednij {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #D92430;
+    color: #fff;
+    font-size: 20px;
+}
